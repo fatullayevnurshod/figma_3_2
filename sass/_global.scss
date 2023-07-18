@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+.container {
+  max-width: 88%;
+  margin: auto;
+}
+
+@media screen and (min-width: 640px) {
+  .container {
+    max-width: 93%;
+    margin: auto;
+  }
+}
