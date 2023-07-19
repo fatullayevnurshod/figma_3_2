@@ -37,8 +37,12 @@
 }
 .mental_health_text {
   display: flex;
+
   justify-content: center;
   ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
     li {
       display: flex;
       align-items: center;

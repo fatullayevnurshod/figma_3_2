@@ -319,6 +319,11 @@ nav .nav__left h3 {
   display: flex;
   justify-content: center;
 }
+.mental_health_text ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
 .mental_health_text ul li {
   display: flex;
   align-items: center;
