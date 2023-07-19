@@ -1,0 +1,152 @@
+.footer__fon {
+  background-color: $background-section_2-footer;
+}
+.footer {
+  color: #fff;
+  padding: 5rem 0;
+  h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+}
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  .footer_info {
+    h3 {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 0.1px;
+      margin-bottom: 1.6rem;
+    }
+    ul {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 8px;
+      a {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 142.857%;
+      }
+    }
+  }
+}
+.Subscribe {
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .input {
+    position: relative;
+    max-width: 33.8rem;
+    margin: auto;
+
+    input[type="email"] {
+      padding: 12px 54px 12px 2.4rem;
+      border-radius: 40px;
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.1px;
+      //   width: 33.8rem;
+      width: 100%;
+    }
+    i {
+      position: absolute;
+      font-size: 2.2rem;
+      right: 2.4rem;
+      top: 1.5rem;
+    }
+  }
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 142.857%;
+    opacity: 0.4;
+    margin-top: 2rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .footer {
+    margin: auto;
+    h2 {
+      text-align: start;
+    }
+    .general_data {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .footer_data {
+    column-gap: 10rem;
+    .footer_info {
+      ul {
+        text-align: start;
+      }
+    }
+  }
+  .Subscribe {
+    margin-bottom: 3rem;
+    h3 {
+      text-align: start;
+    }
+    .input {
+      position: relative;
+      max-width: 21.8rem;
+      margin: auto;
+
+      input[type="email"] {
+        width: 100%;
+      }
+    }
+    p {
+      max-width: 21.8rem;
+      text-align: start;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: auto;
+    h2 {
+      margin-bottom: 4.8rem;
+    }
+  }
+  .footer_data {
+    column-gap: 13rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .footer {
+    margin: auto;
+    display: flex;
+    column-gap: 10rem;
+
+    h2 {
+      margin-bottom: 4.8rem;
+    }
+  }
+  .footer_data {
+    column-gap: 13rem;
+  }
+  .general_data {
+    column-gap: 10rem;
+  }
+}
