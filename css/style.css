@@ -374,6 +374,7 @@ nav .nav__left h3 {
   margin: auto;
 }
 #customer__reviews .thoughts p {
+  max-width: 27.3rem;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 155.556%;
@@ -399,6 +400,242 @@ nav .nav__left h3 {
   }
   #customer__reviews .Jess {
     display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #customer__reviews {
+    position: relative;
+    display: flex;
+    max-width: 100%;
+    z-index: 1;
+    column-gap: 3rem;
+    margin: auto;
+    overflow-x: hidden;
+    padding: 4.6rem 0;
+  }
+  #customer__reviews .thoughts {
+    width: 32.1rem;
+  }
+  #customer__reviews .thoughts h4 {
+    margin-top: 1rem;
+  }
+  #customer__reviews .Jess {
+    display: block;
+  }
+  #customer__reviews .David {
+    display: inline-block;
+  }
+  #customer__reviews .Patty p {
+    width: 27rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  #customer__reviews {
+    padding: 9.6rem 0;
+    max-width: 114rem;
+  }
+  #customer__reviews .thoughts {
+    width: 36rem;
+  }
+}
+.VERSION__fon {
+  padding: 19.2rem 0;
+  width: 100%;
+  background: url(../imgs/cta.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.VERSION p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  color: #000;
+}
+.VERSION h2 {
+  max-width: 32.8rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 200%;
+  letter-spacing: -0.5px;
+  color: #000;
+  margin: auto;
+  margin-top: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+.VERSION button {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  padding: 8px 16px;
+  display: flex;
+  margin: auto;
+  border-radius: 2.4rem;
+  border: none;
+}
+
+@media screen and (min-width: 640px) {
+  .VERSION h2 {
+    max-width: 60rem;
+    font-size: 3.4rem;
+    line-height: 141.176%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .VERSION h2 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+}
+.footer__fon {
+  background-color: #000;
+}
+
+.footer {
+  color: #fff;
+  padding: 5rem 0;
+}
+.footer h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.footer_data .footer_info h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  margin-bottom: 1.6rem;
+}
+.footer_data .footer_info ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.footer_data .footer_info ul a {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 142.857%;
+}
+
+.Subscribe h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.Subscribe .input {
+  position: relative;
+  max-width: 33.8rem;
+  margin: auto;
+}
+.Subscribe .input input[type=email] {
+  padding: 12px 54px 12px 2.4rem;
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  width: 100%;
+}
+.Subscribe .input i {
+  position: absolute;
+  font-size: 2.2rem;
+  right: 2.4rem;
+  top: 1.5rem;
+}
+.Subscribe p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 142.857%;
+  opacity: 0.4;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .footer {
+    margin: auto;
+  }
+  .footer h2 {
+    text-align: start;
+  }
+  .footer .general_data {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer_data {
+    column-gap: 10rem;
+  }
+  .footer_data .footer_info ul {
+    text-align: start;
+  }
+  .Subscribe {
+    margin-bottom: 3rem;
+  }
+  .Subscribe h3 {
+    text-align: start;
+  }
+  .Subscribe .input {
+    position: relative;
+    max-width: 21.8rem;
+    margin: auto;
+  }
+  .Subscribe .input input[type=email] {
+    width: 100%;
+  }
+  .Subscribe p {
+    max-width: 21.8rem;
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: auto;
+  }
+  .footer h2 {
+    margin-bottom: 4.8rem;
+  }
+  .footer_data {
+    column-gap: 13rem;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .footer {
+    margin: auto;
+    display: flex;
+    column-gap: 10rem;
+  }
+  .footer h2 {
+    margin-bottom: 4.8rem;
+  }
+  .footer_data {
+    column-gap: 13rem;
+  }
+  .general_data {
+    column-gap: 10rem;
   }
 }
 
